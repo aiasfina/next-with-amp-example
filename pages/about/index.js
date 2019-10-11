@@ -6,9 +6,10 @@ class About extends React.Component {
     render() {
         return(
             <div>
-                <h2 className={styles.text}>Welcome to About Page</h2>
+                <h2 className="text">Welcome to About Page</h2>
                 <a href="/">To Home</a>
                 <Button />
+                <style jsx>{styles}</style>
             </div>
         )
     }
